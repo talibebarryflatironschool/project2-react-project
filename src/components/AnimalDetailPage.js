@@ -1,14 +1,18 @@
+
+
+
+
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 
-export function AnimalDetailPage() {
+const AnimalDetailPage = () => {
   const { id } = useParams();
   const [animal, setAnimal] = useState(null);
 
   useEffect(() => {
     fetch(`http://localhost:4000/animals/${id}`)
-      .then(res => res.json())
-      .then(data => setAnimal(data));
+      .then((res) => res.json())
+      .then((data) => setAnimal(data));
   }, [id]);
 
   if (!animal) return <p>Loading...</p>;
@@ -23,4 +27,6 @@ export function AnimalDetailPage() {
       <p><strong>Description:</strong> {animal.description}</p>
     </div>
   );
-}
+};
+
+export default AnimalDetailPage;

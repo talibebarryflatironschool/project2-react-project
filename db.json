@@ -1,96 +1,95 @@
 {
-    "animals": [
-      {
-        "id": 1,
-        "name": "African Elephant",
-        "scientific_name": "Loxodonta africana",
-        "image": "https://example.com/images/african_elephant.jpg",
-        "habitat": "Savannas, forests, deserts, and marshes across sub-Saharan Africa",
-        "diet": "Herbivore; primarily grasses, leaves, bark, and fruit",
-        "conservation_status": "Vulnerable",
-        "description": "The African elephant is the largest land animal on Earth, known for its large ears and tusks. They play a crucial role in their ecosystems by modifying habitats and dispersing seeds.",
-        "adopted": false,
-        "vaccinated": false,
-        "credit": "Information and image source: African Wildlife Foundation (www.awf.org)"
-      },
-      {
-        "id": 2,
-        "name": "Lion",
-        "scientific_name": "Panthera leo",
-        "image": "https://example.com/images/lion.jpg",
-        "habitat": "Grasslands, savannas, and open woodlands in sub-Saharan Africa",
-        "diet": "Carnivore; preys on large herbivores like zebras and wildebeests",
-        "conservation_status": "Vulnerable",
-        "description": "Lions are social big cats known for living in prides. They are apex predators and play a significant role in maintaining the balance of their ecosystems.",
-        "adopted": false,
-        "vaccinated": false,
-        "credit": "Information and image source: African Wildlife Foundation (www.awf.org)"
-      },
-      {
-        "id": 3,
-        "name": "Mountain Gorilla",
-        "scientific_name": "Gorilla beringei beringei",
-        "image": "https://example.com/images/mountain_gorilla.jpg",
-        "habitat": "Montane forests in the Virunga Mountains of East Africa",
-        "diet": "Herbivore; feeds on leaves, shoots, and stems",
-        "conservation_status": "Endangered",
-        "description": "Mountain gorillas are a subspecies of eastern gorillas. They live in social groups led by a dominant silverback male and are known for their gentle behavior.",
-        "adopted": false,
-        "vaccinated": false,
-        "credit": "Information and image source: African Wildlife Foundation (www.awf.org)"
-      },
-      {
-        "id": 4,
-        "name": "Giraffe",
-        "scientific_name": "Giraffa camelopardalis",
-        "image": "https://example.com/images/giraffe.jpg",
-        "habitat": "Savannas and open woodlands across Africa",
-        "diet": "Herbivore; primarily feeds on acacia leaves",
-        "conservation_status": "Vulnerable",
-        "description": "Giraffes are the tallest land animals, recognized by their long necks and legs. They play a vital role in their ecosystems by browsing on tall vegetation.",
-        "adopted": false,
-        "vaccinated": false,
-        "credit": "Information and image source: African Wildlife Foundation (www.awf.org)"
-      },
-      {
-        "id": 5,
-        "name": "Black Rhinoceros",
-        "scientific_name": "Diceros bicornis",
-        "image": "https://example.com/images/black_rhinoceros.jpg",
-        "habitat": "Savannas, grasslands, and shrublands in eastern and southern Africa",
-        "diet": "Herbivore; browsers feeding on bushes and trees",
-        "conservation_status": "Critically Endangered",
-        "description": "Black rhinos are known for their hooked upper lip, which aids in feeding on shrubs. They are solitary animals and have faced significant declines due to poaching.",
-        "adopted": false,
-        "vaccinated": false,
-        "credit": "Information and image source: African Wildlife Foundation (www.awf.org)"
-      },
-      {
-        "id": 6,
-        "name": "Cheetah",
-        "scientific_name": "Acinonyx jubatus",
-        "image": "https://example.com/images/cheetah.jpg",
-        "habitat": "Open plains and savannas in sub-Saharan Africa",
-        "diet": "Carnivore; primarily hunts small to medium-sized ungulates",
-        "conservation_status": "Vulnerable",
-        "description": "Cheetahs are the fastest land animals, capable of reaching speeds up to 60-70 mph. They rely on speed and stealth to catch their prey.",
-        "adopted": false,
-        "vaccinated": false,
-        "credit": "Information and image source: African Wildlife Foundation (www.awf.org)"
-      },
-      {
-        "id": 7,
-        "name": "African Wild Dog",
-        "scientific_name": "Lycaon pictus",
-        "image": "https://example.com/images/african_wild_dog.jpg",
-        "habitat": "Savannas, grasslands, and open forests in sub-Saharan Africa",
-        "diet": "Carnivore; hunts antelopes, rodents, and birds",
-        "conservation_status": "Endangered",
-        "description": "African wild dogs are highly social and live in packs with complex social structures. They are known for their cooperative hunting techniques.",
-        "adopted": false,
-        "vaccinated": false,
-        "credit": "Information and image source: African Wildlife Foundation (www.awf.org)"
-      }
-    ]
-  }
-  
+  "animals": [
+    {
+      "id": "1",
+      "name": "African Elephant",
+      "scientific_name": "Loxodonta africana",
+      "image": "https://www.awf.org/sites/default/files/styles/species_image/public/2020-04/Website_SpeciesPage_Elephant02_Challenges.webp?h=29c6c1f6&itok=VGNjn3GD",
+      "habitat": "Savannas, forests, deserts, and marshes across sub-Saharan Africa",
+      "diet": "Herbivore; primarily grasses, leaves, bark, and fruit",
+      "conservation_status": "Vulnerable",
+      "description": "The African elephant is the largest land animal on Earth, known for its large ears and tusks. They play a crucial role in their ecosystems by modifying habitats and dispersing seeds.",
+      "adopted": false,
+      "vaccinated": false,
+      "credit": "Information and image source: African Wildlife Foundation (www.awf.org)"
+    },
+    {
+      "id": "2",
+      "name": "Lion",
+      "scientific_name": "Panthera leo",
+      "image": "https://www.awf.org/sites/default/files/styles/species_image/public/2020-03/Website_SpeciesPage_Lion02_Challenges.webp?h=29c6c1f6&itok=N2Ct0Kem",
+      "habitat": "Grasslands, savannas, and open woodlands in sub-Saharan Africa",
+      "diet": "Carnivore; preys on large herbivores like zebras and wildebeests",
+      "conservation_status": "Vulnerable",
+      "description": "Lions are social big cats known for living in prides. They are apex predators and play a significant role in maintaining the balance of their ecosystems.",
+      "adopted": false,
+      "vaccinated": false,
+      "credit": "Information and image source: African Wildlife Foundation (www.awf.org)"
+    },
+    {
+      "id": "3",
+      "name": "Mountain Gorilla",
+      "scientific_name": "Gorilla beringei beringei",
+      "image": "https://www.awf.org/sites/default/files/styles/species_hero_d_1440x750_/public/Website_SpeciesPage_MountainGorilla01_Hero.webp?h=ba6751a8&itok=_MEq7NLU",
+      "habitat": "Montane forests in the Virunga Mountains of East Africa",
+      "diet": "Herbivore; feeds on leaves, shoots, and stems",
+      "conservation_status": "Endangered",
+      "description": "Mountain gorillas are a subspecies of eastern gorillas. They live in social groups led by a dominant silverback male and are known for their gentle behavior.",
+      "adopted": false,
+      "vaccinated": false,
+      "credit": "Information and image source: African Wildlife Foundation (www.awf.org)"
+    },
+    {
+      "id": "4",
+      "name": "Giraffe",
+      "scientific_name": "Giraffa camelopardalis",
+      "image": "https://www.awf.org/sites/default/files/styles/species_image/public/2020-04/Website_SpeciesPage_Giraffe02_Challenges.webp?h=29c6c1f6&itok=c4O28j2u",
+      "habitat": "Savannas and open woodlands across Africa",
+      "diet": "Herbivore; primarily feeds on acacia leaves",
+      "conservation_status": "Vulnerable",
+      "description": "Giraffes are the tallest land animals, recognized by their long necks and legs. They play a vital role in their ecosystems by browsing on tall vegetation.",
+      "adopted": false,
+      "vaccinated": false,
+      "credit": "Information and image source: African Wildlife Foundation (www.awf.org)"
+    },
+    {
+      "id": "5",
+      "name": "Black Rhinoceros",
+      "scientific_name": "Diceros bicornis",
+      "image": "https://www.awf.org/sites/default/files/styles/horizontal_image/public/2020-03/Website_SpeciesPage_Rhinoceros03_02_Solutions.jpg?h=05d4a2d9&itok=-2bzaGci",
+      "habitat": "Savannas, grasslands, and shrublands in eastern and southern Africa",
+      "diet": "Herbivore; browsers feeding on bushes and trees",
+      "conservation_status": "Critically Endangered",
+      "description": "Black rhinos are known for their hooked upper lip, which aids in feeding on shrubs. They are solitary animals and have faced significant declines due to poaching.",
+      "adopted": false,
+      "vaccinated": false,
+      "credit": "Information and image source: African Wildlife Foundation (www.awf.org)"
+    },
+    {
+      "id": "6",
+      "name": "Cheetah",
+      "scientific_name": "Acinonyx jubatus",
+      "image": "https://www.awf.org/sites/default/files/styles/horizontal_image/public/2020-04/AWF_SpeciesPage_Cheetah03_02_Solutions.jpg?h=05d4a2d9&itok=BHGoof1c",
+      "habitat": "Open plains and savannas in sub-Saharan Africa",
+      "diet": "Carnivore; primarily hunts small to medium-sized ungulates",
+      "conservation_status": "Vulnerable",
+      "description": "Cheetahs are the fastest land animals, capable of reaching speeds up to 60-70 mph. They rely on speed and stealth to catch their prey.",
+      "adopted": false,
+      "vaccinated": false,
+      "credit": "Information and image source: African Wildlife Foundation (www.awf.org)"
+    },
+    {
+      "id": "7",
+      "name": "African Wild Dog",
+      "scientific_name": "Lycaon pictus",
+      "image": "https://www.awf.org/sites/default/files/styles/species_hero_d_1440x750_/public/SpeciesPage_AfricanWildDog01_Hero.webp?h=ba6751a8&itok=QvVUPHmX",
+      "habitat": "Savannas, grasslands, and open forests in sub-Saharan Africa",
+      "diet": "Carnivore; hunts antelopes, rodents, and birds",
+      "conservation_status": "Endangered",
+      "description": "African wild dogs are highly social and live in packs with complex social structures. They are known for their cooperative hunting techniques.",
+      "adopted": false,
+      "vaccinated": false,
+      "credit": "Information and image source: African Wildlife Foundation (www.awf.org)"
+    }
+  ]
+}

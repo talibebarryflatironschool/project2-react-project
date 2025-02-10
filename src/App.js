@@ -26,12 +26,13 @@
 
 
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes, Link, useParams } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
-import { NavigationBar } from './components/NavigationBar';
-import { AnimalList } from './components/AnimalList';
-import { AnimalDetailPage } from './components/AnimalDetailPage';
-import { AnimalForm } from './components/AnimalForm';
+import NavigationBar from './components/NavigationBar';
+import AnimalList from './components/AnimalList';
+import AnimalDetailPage from './components/AnimalDetailPage';
+import AnimalForm from './components/AnimalForm';
+import AnimalCard from './components/AnimalCard';
 
 function App() {
   return (
