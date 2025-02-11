@@ -9,7 +9,6 @@ import AnimalForm from './components/AnimalForm';
 // import AnimalCard from './components/AnimalCard';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
 function App() {
   return (
     <Router>

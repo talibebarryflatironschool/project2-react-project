@@ -14,7 +14,7 @@ const AnimalDetailPage = () => {
   if (!animal) return <p>Loading...</p>;
 
   return (
-    <div>
+    <div className="animal-detail-container">
       <h1>{animal.name}</h1>
       <img src={animal.image} alt={animal.name} style={{ width: '300px' }} />
       <p><strong>Habitat:</strong> {animal.habitat}</p>
