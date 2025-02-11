@@ -30,8 +30,8 @@ const AnimalCard = ({ animal, updateAnimals }) => {
       <p><strong>Description:</strong> {animal.description}</p>
       <p><strong>Status:</strong> {adopted ? "Adopted" : "Available"}</p>
       <p><strong>Vaccination:</strong> {vaccinated ? "Vaccinated" : "Not Vaccinated"}</p>
-      <button onClick={() => handleUpdate('adopted', !adopted)}>{adopted ? "Undo Adoption" : "Adopt"}</button>
-      <button onClick={() => handleUpdate('vaccinated', !vaccinated)}>{vaccinated ? "Undo Vaccination" : "Vaccinate"}</button>
+      <button className="btn-adopt"onClick={() => handleUpdate('adopted', !adopted)}>{adopted ? "Undo Adoption" : "Adopt"}</button>
+      <button className="btn-vaccinate"onClick={() => handleUpdate('vaccinated', !vaccinated)}>{vaccinated ? "Undo Vaccination" : "Vaccinate"}</button>
       <Link to={`/animals/${animal.id}`}>View Details</Link>
     </div>
   );

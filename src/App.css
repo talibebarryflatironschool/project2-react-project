@@ -39,7 +39,7 @@
 
 
 
-body {
+/* body {
   background-image: url('https://ecdn.teacherspayteachers.com/thumbitem/Black-History-Month-Writing-Activities-Africa-Map-Lined-Template-Craft-Project-9036981-1674429297/original-9036981-1.jpg');
   background-size: cover;
   background-position: center;
@@ -81,4 +81,104 @@ body {
 
 .btn {
   margin-top: 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-adopt {
+  background-color:red;
+  color:white;
+}
+
+.btn-vaccinate {
+  background-color: #39ff14 !important;
+  color: black !important;
+}
+
+.btn-view-details {
+  background-color: yellow !important;
+  color: black !important;
+} */
+
+
+
+body {
+  background-image: url('https://media.istockphoto.com/id/2192257373/vector/africa-map-decorative-silhouette-of-african-continent-with-traditional-african-ethnic.jpg?s=612x612&w=is&k=20&c=UUevaE-Ijjq-4am3IH8YWpWsqZMk5Hx7ZkbbEBGFetk=');
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  height: 120vh;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-color: red;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  font-family:'Arial Narrow Bold', sans-serif;
+}
+
+.animal-card {
+  background-image: url('https://ecdn.teacherspayteachers.com/thumbitem/Black-History-Month-Writing-Activities-Africa-Map-Lined-Template-Craft-Project-9036981-1674429297/original-9036981-1.jpg');
+  border-radius: 200px;
+  padding: 100px;
+  margin: 170px;
+  /* box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3); */
+  text-align: center;
+  transition: transform 0.1s ease-in-out;
+}
+
+.animal-card:hover {
+  transform: scale(1.05);
+}
+
+.animal-image {
+  width: 170%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.form-container {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 12px 18px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-adopt {
+  background-color: red;
+  color: white;
+}
+
+.btn-vaccinate {
+  background-color: #39ff14;
+  color: black;
+}
+
+.btn-view-details {
+  background-color: yellow;
+  color: black;
+}
+
+.btn:hover {
+  opacity: 0.8;
 }
