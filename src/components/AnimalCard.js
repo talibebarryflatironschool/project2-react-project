@@ -43,3 +43,42 @@ export default AnimalCard;
 
 
 
+// import React, { useState } from 'react';
+// import { Link } from 'react-router-dom';
+
+// const AnimalCard = ({ animal, updateAnimals }) => {
+//   const [adopted, setAdopted] = useState(animal.adopted);
+//   const [vaccinated, setVaccinated] = useState(animal.vaccinated);
+
+//   const handleUpdate = (field, value) => {
+//     fetch(`http://localhost:4000/animals/${animal.id}`, {
+//       method: "PATCH",
+//       headers: { "Content-Type": "application/json" },
+//       body: JSON.stringify({ [field]: value })
+//     })
+//       .then(res => res.json())
+//       .then(updatedAnimal => {
+//         updateAnimals(updatedAnimal); // ✅ Ensures state updates
+//       });
+//   };
+
+//   return (
+//     <div className="card animal-card text-center">
+//       <img src={animal.image} alt={animal.name} className="card-img-top" />
+//       <div className="card-body">
+//         <h5 className="card-title">{animal.name}</h5>
+//         <p><strong>Habitat:</strong> {animal.habitat}</p>
+//         <p><strong>Diet:</strong> {animal.diet}</p>
+//         <p><strong>Conservation Status:</strong> {animal.conservation_status}</p>
+//         <button className="btn btn-adopt m-1" onClick={() => handleUpdate('adopted', !adopted)}>
+//           {adopted ? "Undo Adoption" : "Adopt"}
+//         </button>
+//         <button className="btn btn-vaccinate m-1" onClick={() => handleUpdate('vaccinated', !vaccinated)}>
+//           {vaccinated ? "Undo Vaccination" : "Vaccinate"}
+//         </button>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default AnimalCard;

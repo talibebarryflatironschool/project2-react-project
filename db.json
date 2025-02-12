@@ -36,7 +36,7 @@
       "conservation_status": "Endangered",
       "description": "Mountain gorillas are a subspecies of eastern gorillas. They live in social groups led by a dominant silverback male and are known for their gentle behavior.",
       "adopted": false,
-      "vaccinated": false,
+      "vaccinated": true,
       "credit": "Information and image source: African Wildlife Foundation (www.awf.org)"
     },
     {
@@ -87,8 +87,8 @@
       "diet": "Carnivore; hunts antelopes, rodents, and birds",
       "conservation_status": "Endangered",
       "description": "African wild dogs are highly social and live in packs with complex social structures. They are known for their cooperative hunting techniques.",
-      "adopted": false,
-      "vaccinated": false,
+      "adopted": true,
+      "vaccinated": true,
       "credit": "Information and image source: African Wildlife Foundation (www.awf.org)"
     },
     {
@@ -100,8 +100,8 @@
       "diet": "fruit",
       "conservation_status": "danger",
       "description": "loving ",
-      "adopted": false,
-      "vaccinated": false
+      "adopted": true,
+      "vaccinated": true
     },
     {
       "id": "cf5a",
@@ -112,7 +112,7 @@
       "diet": "fruit",
       "conservation_status": "danger",
       "description": "love.",
-      "adopted": false,
+      "adopted": true,
       "vaccinated": false
     },
     {
@@ -126,6 +126,18 @@
       "description": "best school",
       "adopted": false,
       "vaccinated": false
+    },
+    {
+      "id": "009d",
+      "name": "monkey",
+      "scientific_name": "NiceAnimal",
+      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxASEBUQEBIVFRUWEBYVFRUVFxUVFRUVGBUYFhUWFxcYHSggGBolHRUWIjEhJSkrLi8uGB8zODMsOCgtLisBCgoKDg0OGxAQGi0lICYuLi0vLS0tLS0tLS0tKy0tLS0tLS0tLS0tLS0tLS0tLS0tLSstLS0tLS0tLS0tLS0tLf/AABEIAJoBRgMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAABAgMEBQAGB//EAEUQAAEDAgQDBQYCBwYEBwAAAAEAAhEDIQQSMUEFUWETInGBkQYyQqGxwdHwFCNScrLC4TNigqKj8SRjc4MVFjRTdMPS/8QAGgEAAwEBAQEAAAAAAAAAAAAAAAEDAgQFBv/EADERAAICAQIDBQYGAwAAAAAAAAABAhEDEiExQXEEEyJRgRQjYZGx8DJCcoKhwRXR4f/aAAwDAQACEQMRAD8A0oRhNC6F7FnkCwuhPC6ErAWF0J4VXGY5lP3teSUpqKtmoxcnSLELoWPT9oaZnu6DnvfmByT1OPU/hEyLGflGuy5n23Cuf8Msuy5fI1YRhZtHi+YZg20wOv4JanFA4EQQYtBm8TESNufNZ9vwvZMfsuTyNSF0Ly+J47DbPIAFjcSInWCpqHHCLEl0wRYWBnXlpqSs/wCQhfBm32OdcT0ULoVKnxakRcwb25+CvU3tddpB8CCumGeE/wALOeWKceKBCEKSF0KtmCOF0J4XQiwEhCFJCEIsBIQhSQhCdgJCEKSEIRYEcIEKSF0IsKIoXQpIQhFgRwhCkhAhOwI4QhSQgQiwIyEIUkIQgCOEsKWEsIsCMhCFIQlKYUJCUhSEIEIAiIQUhCKANWFwCaEYUrHQhCzOKYx9IWc2de8IGhgEza9pWq4wJKx8YDXc0SWNBJ+IEEaW+K8ztG6lldqrplMS3utjKqe0JcWM7wc5rrCRbnlOoGmu/gVTc+oQ4hpMWc+xg",
+      "habitat": "hot",
+      "diet": "fruit",
+      "conservation_status": "",
+      "description": "loving pet",
+      "adopted": true,
+      "vaccinated": true
     }
   ]
 }

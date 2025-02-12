@@ -57,17 +57,39 @@
 
 
 
+// import React from 'react';
+// import AnimalCard from './AnimalCard';
+
+// const AnimalList = ({ animals }) => {
+//   return (
+//     <div className="container mt-4">
+//       <h1 className="text-center">Animal List</h1>
+//       <div className="row">
+//         {animals.map(animal => (
+//           <div key={animal.id} className="col-md-4">
+//             <AnimalCard animal={animal} />
+//           </div>
+//         ))}
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default AnimalList;
+
+
+
 import React from 'react';
 import AnimalCard from './AnimalCard';
 
-const AnimalList = ({ animals }) => {
+const AnimalList = ({ animals, updateAnimals }) => {
   return (
     <div className="container mt-4">
       <h1 className="text-center">Animal List</h1>
       <div className="row">
         {animals.map(animal => (
           <div key={animal.id} className="col-md-4">
-            <AnimalCard animal={animal} />
+            <AnimalCard animal={animal} updateAnimals={updateAnimals} /> {/* ✅ Pass updateAnimals */}
           </div>
         ))}
       </div>
